@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Phoenix Valley Con, August 6 - 8, 2027'
+
+languageCode = "en-us"
+theme = "LucentLink-Hugo"
+minVersion = "0.115.0"
+
+[params]
+  description     = "A new furry convention in Phoenix, AZ taking place August 6 through 8, 2027 at the Embassy Suites by Hilton Phoenix Scottsdale"
+  googleAnalytics = ""    # your GA ID, if any
+
+[outputs]
+  home = ["HTML"]
