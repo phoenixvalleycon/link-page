@@ -14,9 +14,9 @@
   
     <div class="flex flex-wrap justify-center gap-4 mb-8 social-icons">
       {{ range .Params.socials }}
-        <a href="{{ .url }}" class="text-xl" target="_blank" rel="noopener">
-          <i class="{{ .icon }} icon"></i>
-        </a>
+      <a href="{{ .url }}" title="{{ .title }}" class="text-xl" target="_blank" rel="noopener">
+        <i class="{{ .icon }} icon"></i>
+      </a>
       {{ end }}
     </div>
 </div>

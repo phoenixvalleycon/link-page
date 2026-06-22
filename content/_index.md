@@ -7,8 +7,16 @@ description: "A new furry convention in Phoenix, AZ taking place August 6 throug
 socials:
   - url: "https://x.com/PhxValleyCon"
     icon: "fab fa-twitter"
+    title: "Twitter / X"
   - url: "https://bsky.app/profile/phxvalleycon.bsky.social"
     icon: "fab fa-bluesky"
+    title: "Bluesky"
+  - url: "https://t.me/+6RYA0OweNDJmNDcz"
+    icon: "fab fa-telegram"
+    title: "Official Attendee Telegram Chat"
+  - url: "https://docs.google.com/forms/d/e/1FAIpQLScE1YyNIF4LJczwkQ5KyzX9bcfrhqko88yjLyJITapvInXpnQ/viewform?usp=header"
+    icon: "fa-solid fa-id-card-clip"
+    title: "Staff Application Form"
 # ...
 #about:
 #  title: "About Me"
@@ -25,9 +33,16 @@ links:
     icon: "fab fa-twitter"
     title: "Twitter / X"
     description: "PhxValleyCon"
+  - href: "https://t.me/+6RYA0OweNDJmNDcz"
+    icon: "fab fa-telegram"
+    title: "Telegram"
+    description: "Official Telegram Attendee Chat"
   - href: "https://docs.google.com/forms/d/e/1FAIpQLScE1YyNIF4LJczwkQ5KyzX9bcfrhqko88yjLyJITapvInXpnQ/viewform?usp=header"
     icon: "fa-solid fa-id-card-clip"
     title: "Want to join our team?"
-    description: "Click here for the staff application form!"
+    description: |
+        Click here for the staff application form!
+
+        Links to job descriptions inside.
 # ...
 ---
