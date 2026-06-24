@@ -2,7 +2,7 @@
 title: "LucentLink"
 profileImage: "images/A_PVCLogo_v2.webp"
 name: "Phoenix Valley Con"
-description: "A new furry convention in Phoenix, AZ taking place August 6 through 8, 2027 at the Embassy Suites by Hilton Phoenix Scottsdale"
+description: "A new 18+ furry convention in Phoenix, AZ taking place August 6 through 8, 2027 at the Embassy Suites by Hilton Phoenix Scottsdale"
 
 socials:
   - url: "https://x.com/PhxValleyCon"
@@ -44,5 +44,7 @@ links:
         Click here for the staff application form!
 
         Links to job descriptions inside.
+
+        Must be 18+
 # ...
 ---
