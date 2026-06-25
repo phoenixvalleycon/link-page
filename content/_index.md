@@ -8,7 +8,7 @@ socials:
   - url: "https://x.com/PhxValleyCon"
     icon: "fab fa-twitter"
     title: "Twitter / X"
-  - url: "https://bsky.app/profile/phxvalleycon.bsky.social"
+  - url: "https://bsky.app/profile/phoenixvalleycon.com"
     icon: "fab fa-bluesky"
     title: "Bluesky"
   - url: "https://t.me/+6RYA0OweNDJmNDcz"
@@ -25,7 +25,7 @@ socials:
 #      content: "Your background text."
 # ...
 links:
-  - href: "https://bsky.app/profile/phxvalleycon.bsky.social"
+  - href: "https://bsky.app/profile/phoenixvalleycon.com"
     icon: "fab fa-bluesky"
     title: "Bluesky"
     description: "phxvalleycon.bsky.social"
