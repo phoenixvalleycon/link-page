@@ -1,0 +1,27 @@
+{{ $featured := where .Params.links "featured" true }}
+{{ if $featured }}
+<div class="space-y-4 mb-8">
+
+  {{ range $featured }}
+    {{ $url := .href | default "#" }}
+    {{ with .page }}
+      {{ with $.Site.GetPage . }}
+        {{ $url = .RelPermalink }}
+      {{ else }}
+        {{ warnf "registration card: no page found for %q" . }}
+      {{ end }}
+    {{ end }}
+
+    <a href="{{ $url }}" class="block link-card link-card--featured p-4 flex items-center">
+      <div class="w-10 h-10 flex items-center justify-center mr-4">
+        <i class="{{ .icon }} icon text-xl"></i>
+      </div>
+      <div>
+        <h3 class="font-medium">{{ .title }}</h3>
+        <p class="newline text-sm opacity-70">{{ .description }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+</div>
+{{ end }}
