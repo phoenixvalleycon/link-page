@@ -4,7 +4,7 @@ type: "registration"
 url: "/registration/"
 description: "Phoenix Valley Con Registration"
 profileImage: "images/A_PVCLogo_v2.webp"
-bannerImage: "images/PVC_Banner.png"   # <- put your banner file in static/images/
+bannerImage: "images/PVC_Banner.jpg"   # <- put your banner file in static/images/
 name: "Phoenix Valley Con"
 dates: "August 6 - 8, 2027"
 venue: "Embassy Suites by Hilton Phoenix Scottsdale"

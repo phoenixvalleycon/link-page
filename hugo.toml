@@ -9,7 +9,7 @@ minVersion = "0.115.0"
 [params]
   description     = "A new furry convention in Phoenix, AZ taking place August 6 through 8, 2027 at the Embassy Suites by Hilton Phoenix Scottsdale"
   googleAnalytics = ""    # your GA ID, if any
-  banner = "images/PVC_Banner.png"
+  banner = "images/PVC_Banner.jpg"
 [outputs]
   home = ["HTML"]
 
