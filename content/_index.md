@@ -22,8 +22,8 @@ socials:
     title: "Staff Application Form"
 #...
 links:
-  - title: "Phoenix Valley Con Registration"
-    description: "Early bird tickets available now"
+  - title: "Registration and Hotel Bookings"
+    description: "Early bird tickets available now! Rooms available now!"
     page: "registration.md"
     icon: "fas fa-ticket"
     featured: true

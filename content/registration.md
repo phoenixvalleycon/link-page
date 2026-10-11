@@ -14,6 +14,13 @@ registerCard:
   icon: "fas fa-ticket"
   title: "Register Now"
   description: "Choose your tier on our registration page"
+  
+hotelCard:
+  icon: "fas fa-hotel"
+  title: "Hotel Booking"
+  description: "Reserve your room at Embassy Suites by Hilton Phoenix Scottsdale"
+  url: "https://www.hilton.com/en/attend-my-event/phxpves-con-1c7bbde5-023a-46ec-820b-0d32f9b437d8/"
+  
 tiers:
   - name: "Attendee (Early Bird)"
     price: 56

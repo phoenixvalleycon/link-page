@@ -12,11 +12,13 @@
 
   <!-- Banner / hero -->
   <header class="relative w-full overflow-hidden bg-gradient-to-br from-indigo-900 via-gray-900 to-orange-900">
-    {{ with .Params.bannerImage }}
+        {{ with .Params.bannerImage }}
       <img src="{{ . | relURL }}" alt="" aria-hidden="true"
-           class="absolute inset-0 h-full w-full object-cover">
+           class="absolute inset-0 h-full w-full object-cover opacity-70
+                  [mask-image:linear-gradient(to_bottom,black_30%,transparent_100%)]
+                  [-webkit-mask-image:linear-gradient(to_bottom,black_30%,transparent_100%)]">
     {{ end }}
-    <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-gray-900"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-gray-900"></div>
 
     <div class="relative mx-auto max-w-md px-4 pt-12 pb-16 text-center">
       {{ with .Params.profileImage }}
@@ -40,7 +42,7 @@
 
   <main class="mx-auto w-full max-w-md px-4 pb-12 -mt-6 relative">
 
-    <!-- Register card (first) -->
+<!-- Register card (first) -->
     {{ with .Params.registerCard }}
     <a href="{{ $.Params.registrationURL }}"
        class="mb-8 flex items-center gap-4 rounded-xl border border-blue-400 bg-blue-950/80 px-5 py-4 shadow-lg transition hover:scale-[1.02] hover:bg-blue-900/80">
@@ -53,7 +55,20 @@
     </a>
     {{ end }}
 
-    <!-- Static tiers -->
+<!-- Hotel booking card -->
+    {{ with .Params.hotelCard }}
+    <a href="{{ .url }}" target="_blank" rel="noopener"
+       class="mb-8 -mt-4 flex items-center gap-4 rounded-xl border border-emerald-400 bg-emerald-950/80 px-5 py-4 shadow-lg transition hover:scale-[1.02] hover:bg-emerald-900/80">
+      <i class="{{ .icon }} text-2xl w-6 text-center"></i>
+      <span>
+        <span class="block text-lg font-semibold">{{ .title }}</span>
+        <span class="block text-sm text-gray-300">{{ .description }}</span>
+      </span>
+      <i class="fas fa-arrow-up-right-from-square ml-auto text-gray-300"></i>
+    </a>
+    {{ end }}
+
+<!-- Static tiers -->
     <section class="space-y-4">
       {{ range .Params.tiers }}
       <div class="rounded-xl border px-5 py-4
