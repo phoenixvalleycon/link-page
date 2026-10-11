@@ -28,3 +28,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     updateColors();
 });
+// Force the banner to repaint when the page is restored via Back/Forward
+window.addEventListener('pageshow', function (e) {
+    if (e.persisted) {
+        var b = document.querySelector('.bg-banner');
+        if (b) {
+            b.style.display = 'none';
+            b.offsetHeight; // force reflow
+            b.style.display = '';
+        }
+		
+		document.querySelectorAll('.link-card--featured').forEach(function (card) {
+            card.style.animation = 'none';
+            card.offsetHeight; // force reflow
+            card.style.animation = '';
+        });
+    }
+});
+

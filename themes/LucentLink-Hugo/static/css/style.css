@@ -42,6 +42,59 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.link-card.link-card--featured,
+.link-card.link-card--featured:visited,
+.link-card.link-card--featured:focus,
+.link-card.link-card--featured:active {
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
+  color: #fff;
+  border: 2px solid #ffd166;
+  box-shadow: 0 0 18px rgba(255, 107, 53, 0.55);
+}
+
+.link-card.link-card--featured {
+  animation: featured-pulse 2.4s ease-in-out infinite;
+}
+
+.link-card.link-card--featured .icon,
+.link-card.link-card--featured h3,
+.link-card.link-card--featured p {
+  color: #fff;
+  opacity: 1;
+}
+
+.link-card.link-card--featured {
+  animation: featured-pulse 2.4s ease-in-out infinite;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  transform: translateZ(0);
+  will-change: box-shadow;
+}
+
+.link-card.link-card--featured:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
+  box-shadow: 0 0 28px rgba(255, 107, 53, 0.8);
+}
+
+@keyframes featured-pulse {
+  0%, 100% { box-shadow: 0 0 14px rgba(255, 107, 53, 0.45); }
+  50%      { box-shadow: 0 0 26px rgba(255, 107, 53, 0.85); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link-card.link-card--featured { animation: none; }
+}
+
+@keyframes featured-pulse {
+  0%, 100% { box-shadow: 0 0 14px rgba(255, 107, 53, 0.45); }
+  50%      { box-shadow: 0 0 26px rgba(255, 107, 53, 0.85); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link-card.link-card--featured { animation: none; }
+}
+
 .newline {
   white-space: pre-line;
 }
@@ -64,6 +117,28 @@ body {
   height: 100%;
   z-index: -1;
   overflow: hidden;
+}
+
+.bg-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: -2; /* behind .bg-animation (-1) and all content */
+    pointer-events: none;
+    /* Fade the bottom edge into the page background */
+    -webkit-mask-image: linear-gradient(to bottom, #000 40%, transparent);
+    mask-image: linear-gradient(to bottom, #000 40%, transparent);
+}
+
+.bg-banner {
+    /* existing rules... */
+    transform: translateZ(0);
+    will-change: transform;
 }
 
 .circle {
