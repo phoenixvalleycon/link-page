@@ -27,6 +27,12 @@ links:
     page: "registration.md"
     icon: "fas fa-ticket"
     featured: true
+#...	
+  - href: "https://docs.google.com/forms/d/1jgdsDaHTh15mz5zdIsjFDFpVYmMMgxokenRvS-bX6-k/edit"
+    icon: "fa-solid fa-crown"
+    title: "Guest of Honor Nominations"
+    featured: true
+    description: "Nominate your favorite creator to be a Phoenix Valley Con Guest of Honor!"
 #...		
   - href: "https://docs.google.com/forms/d/e/1FAIpQLScE1YyNIF4LJczwkQ5KyzX9bcfrhqko88yjLyJITapvInXpnQ/viewform?usp=header"
     icon: "fa-solid fa-id-card-clip"
