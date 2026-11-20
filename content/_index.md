@@ -8,59 +8,63 @@ socials:
   - url: "https://x.com/PhxValleyCon"
     icon: "fab fa-twitter"
     title: "Twitter / X"
-#...	
+
   - url: "https://bsky.app/profile/phoenixvalleycon.com"
     icon: "fab fa-bluesky"
     title: "Bluesky"
-#...	
+
   - url: "https://t.me/+6RYA0OweNDJmNDcz"
     icon: "fab fa-telegram"
     title: "Official Attendee Telegram Chat"
-#...	
+
   - url: "https://docs.google.com/forms/d/e/1FAIpQLScE1YyNIF4LJczwkQ5KyzX9bcfrhqko88yjLyJITapvInXpnQ/viewform?usp=header"
     icon: "fa-solid fa-id-card-clip"
     title: "Staff Application Form"
-#...
+
 links:
   - title: "Registration and Hotel Bookings"
     description: "Early bird tickets available now! Rooms available now!"
     page: "registration.md"
     icon: "fas fa-ticket"
     featured: true
-#...	
+
   - href: "https://docs.google.com/forms/d/1jgdsDaHTh15mz5zdIsjFDFpVYmMMgxokenRvS-bX6-k/edit"
     icon: "fa-solid fa-crown"
     title: "Guest of Honor Nominations"
     featured: true
     description: "Nominate your favorite creator to be a Phoenix Valley Con Guest of Honor!"
-#...
+
   - href: "https://docs.google.com/forms/d/1ARiUZK2zYGjzwAX_GKhYEs7Wd3GLbjGiMiZGmQguQQ8/edit"
     icon: "fa-solid fa-microphone"
     title: "Panel Submissions"
     featured: true
     description: "Want to host a panel or event? Submit your idea here!"
-#...		
+
   - href: "https://docs.google.com/forms/d/e/1FAIpQLScE1YyNIF4LJczwkQ5KyzX9bcfrhqko88yjLyJITapvInXpnQ/viewform?usp=header"
     icon: "fa-solid fa-id-card-clip"
     title: "Want to join our team?"
     description: |
         Click here for the staff application form!
         Links to job descriptions inside.
-        Must be 18+		
-#...	
+        Must be 18+
+
   - href: "https://bsky.app/profile/phoenixvalleycon.com"
     icon: "fab fa-bluesky"
     title: "Bluesky"
     description: "phxvalleycon.bsky.social"
-#...	
+
   - href: "https://x.com/PhxValleyCon"
     icon: "fab fa-twitter"
     title: "Twitter / X"
     description: "PhxValleyCon"
-#...	
+
   - href: "https://t.me/+6RYA0OweNDJmNDcz"
     icon: "fab fa-telegram"
     title: "Telegram"
     description: "Official Telegram Attendee Chat"
-# ...
+
+  - href: "https://docs.google.com/document/d/e/2PACX-1vSJlmhJmlkbc5AMMrIBkLPpO0TVvAAXKiOg6pg-vs_GEniirB3Y9Ar1rQ4RwlY7M7y6HdLNL2VI5wah/pub"
+    icon: "fa-solid fa-scale-balanced"
+    title: "Code of Conduct"
+    description: "Our community standards and expectations for all attendees"
 ---
