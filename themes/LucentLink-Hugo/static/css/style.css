@@ -77,9 +77,9 @@ body {
   box-shadow: 0 0 28px rgba(255, 107, 53, 0.8);
 }
 
-@keyframes featured-pulse {
-  0%, 100% { box-shadow: 0 0 14px rgba(255, 107, 53, 0.45); }
-  50%      { box-shadow: 0 0 26px rgba(255, 107, 53, 0.85); }
+@keyframes featured-pulse-gold {
+  0%, 100% { box-shadow: 0 0 14px rgba(250, 204, 21, 0.45); }
+  50%      { box-shadow: 0 0 26px rgba(250, 204, 21, 0.85); }
 }
 
 @media (prefers-reduced-motion: reduce) {
